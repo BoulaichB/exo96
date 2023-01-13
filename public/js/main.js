@@ -14,3 +14,4 @@ console.log(document.querySelectorAll('li, p, span'));
 // ### 5. Trouve le moyen de récupèrer en un seul querySelectorAll tous les éléments li ayant la class important et les éléments p 
 console.log(document.querySelectorAll('li.important, p'));
 // ### 6. Récupère en un seul querySelectorAll uniquement les h1 et les span ayant la class "redPurple"
+console.log(document.querySelectorAll('h1, span.redPurple'));
